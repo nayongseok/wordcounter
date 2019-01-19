@@ -1,0 +1,7 @@
+{% for post in list %}
+<html>
+<h1>
+<a href="{% url 'blog:post_read' post.pk %}">{{post.title}}</a>
+</h1>
+</html>
+{% endfor %}
