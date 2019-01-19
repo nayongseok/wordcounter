@@ -18,22 +18,19 @@
 </head>
 
 <body>
-    
-    <div class="container">
+  <div class="container">
     <br>
-    <ul class="nav nav-pills">
-  <li role="presentation" class="active"><a href="{%url 'home'%}">Home</a></li>
-  <li role="presentation"><a href="{%url 'about'%}">About</a></li>
-  
-</ul>
-    <br>
-    <h1>Hi.단어를 세는 도구입니다!</h1>
-
-    <form action="{%url 'result'%}">
-        <textarea cols="40" rows="10" name="fulltext"> </textarea>
-        <br>
-        <input type="submit" class="btn btn-info">
-    </form>
-</div>
+<h1>웹사이트 정보</h1><br>
+<h2>만든이</h2>
+<p>나용석</p>
+<br>
+<h2>만든 날짜</h2>
+<p>2019년 1월 19일</p>
+<br>
+<h2>용도</h2>
+<p>멋쟁이사자 교육용 과제 제출</p>
+<br>
+<a href="{%url 'about'%}">뒤로가기</a><br>
+<a href="{%url 'home'%}">처음으로 가기</a>
 </body>
 </html>

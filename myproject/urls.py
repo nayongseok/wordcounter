@@ -7,5 +7,6 @@ urlpatterns = [
     path('blog/', include ('blog.urls')),
     path('', wordcount.views.home, name="home"),
     path('about/', wordcount.views.about, name="about"),
-    path('result/', wordcount.views.result, name="result")
+    path('result/', wordcount.views.result, name="result"),
+    path('make/', wordcount.views.make, name="make")
 ]
